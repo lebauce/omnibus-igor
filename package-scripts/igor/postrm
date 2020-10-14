@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Perform necessary igor removal steps
+# after package is uninstalled.
+#
+
+echo "igor has been uninstalled!"
+
+exit 0
