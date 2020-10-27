@@ -17,6 +17,9 @@
 name "sqlite"
 default_version "3.33.0"
 
+dependency 'glibc'
+dependency 'libedit'
+
 license "Public Domain"
 skip_transitive_dependency_licensing true
 
