@@ -28,6 +28,8 @@ dependency 'json-c'
 dependency 'gpgme'
 dependency 'cmake'
 dependency 'sqlite'
+dependency 'gnupg'
+dependency 'check'
 
 license "LGPL-2.1"
 license_file "COPYING"
