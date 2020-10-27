@@ -19,20 +19,9 @@ build_iteration 1
 dependency "preparation"
 
 if linux?
-  #dependency 'cmake'
-  #dependency 'check'
-  #dependency 'elfutils'
-  #dependency 'json-c'
-  #dependency 'libgpg-error'
-  #dependency 'libassuan'
-  #dependency 'gpgme'
-  #dependency 'libgcrypt'
-  #dependency 'curl'
-  #dependency 'openssl'
-  #dependency 'glib'
-  #dependency 'librepo'
-  #dependency 'popt'
-  dependency 'rpm'
+  dependency 'libdnf'
+  dependency 'pacman'
+  dependency 'apk-tools'
 end
 
 
