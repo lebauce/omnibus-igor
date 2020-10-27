@@ -20,6 +20,7 @@ name "libsolv"
 default_version "0.7.4"
 
 # dependency "cmake"
+dependency "glibc"
 dependency "libxml2"
 dependency "popt"
 dependency "zlib"
